@@ -1,5 +1,4 @@
-import React from "react";
-
+import { Link } from "react-router-dom";
 function Stats() {
   return (
     <div className="container">
@@ -45,19 +44,19 @@ function Stats() {
             style={{ width: "85%" }}
           />
           <div className="text-center mt-3">
-            <a
-              href="#"
+            <Link
+              to=""
               className="mx-3 link-offset-2 link-underline link-underline-opacity-0"
             >
               Explore our products{" "}
               <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to=""
               className="mx-5 link-offset-2 link-underline link-underline-opacity-0"
             >
               Try Kite demo
-            </a>
+            </Link>
           </div>
         </div>
       </div>

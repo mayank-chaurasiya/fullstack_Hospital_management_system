@@ -1,5 +1,4 @@
-import React from "react";
-
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="border-top" style={{ backgroundColor: "#f8f9fa" }}>
@@ -16,46 +15,46 @@ function Footer() {
               All rights reserved.
             </p>
             <div className="footer-icons">
-              <a href="">
+              <Link to="">
                 <i className="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
+              </Link>
+              <Link to="">
                 <i className="fa fa-facebook-official" aria-hidden="true"></i>
-              </a>
-              <a href="">
+              </Link>
+              <Link to="">
                 <i className="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
+              </Link>
+              <Link to="">
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-              <a href="">
+              </Link>
+              <Link to="">
                 <i className="fa fa-telegram" aria-hidden="true"></i>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-3 footer-link">
             <p>Company</p>
-            <a href="">About</a>
-            <a href="">Products</a>
-            <a href="">Pricing</a>
-            <a href="">Referral programme</a>
-            <a href="">Careers</a>
-            <a href="">Zerodha.tech</a>
-            <a href="">Press & media</a>
-            <a href="">Zerodha Cares (CSR)</a>
+            <Link to="">About</Link>
+            <Link to="">Products</Link>
+            <Link to="">Pricing</Link>
+            <Link to="">Referral programme</Link>
+            <Link to="">Careers</Link>
+            <Link to="">Zerodha.tech</Link>
+            <Link to="">Press & media</Link>
+            <Link to="">Zerodha Cares (CSR)</Link>
           </div>
           <div className="col-3 footer-link">
             <p>Support</p>
-            <a href="">Support portal</a>
-            <a href="">Z-Connect blog</a>
-            <a href="">List of charges</a>
-            <a href="">Downloads & resources</a>
+            <Link to="">Support portal</Link>
+            <Link to="">Z-Connect blog</Link>
+            <Link to="">List of charges</Link>
+            <Link to="">Downloads & resources</Link>
           </div>
           <div className="col-3 footer-link">
             <p>Account</p>
-            <a href="">Open an account</a>
-            <a href="">Fund transfer</a>
-            <a href="">60 day challenge</a>
+            <Link to="">Open an account</Link>
+            <Link to="">Fund transfer</Link>
+            <Link to="">60 day challenge</Link>
           </div>
         </div>
 
@@ -107,13 +106,13 @@ function Footer() {
         </div>
         <div class="row mt-1 mb-1 p-1">
           <div className="footer-links">
-            <a href="">NSE</a>
-            <a href="">BSE</a>
-            <a href="">MCX</a>
-            <a href="">Terms & conditions</a>
-            <a href="">Policies & prodedures</a>
-            <a href="">Privacy policy</a>
-            <a href="">Disclosure</a>
+            <Link to="">NSE</Link>
+            <Link to="">BSE</Link>
+            <Link to="">MCX</Link>
+            <Link to="">Terms & conditions</Link>
+            <Link to="">Policies & prodedures</Link>
+            <Link to="">Privacy policy</Link>
+            <Link to="">Disclosure</Link>
           </div>
         </div>
       </div>
