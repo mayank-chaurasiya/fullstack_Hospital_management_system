@@ -1,0 +1,35 @@
+.price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.price-container img {
+    height: 200px;
+    width: 300px;
+}
+
+.price-container h1 {
+    font-size: 30px;
+}
+
+.price-container p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.h-text-size {
+    margin-bottom: 15px;
+}
+.p-text-size {
+    font-size: 13px;
+}
