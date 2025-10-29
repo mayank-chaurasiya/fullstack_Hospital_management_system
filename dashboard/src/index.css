@@ -103,7 +103,7 @@ code {
   justify-content: space-between;
 }
 
-.table .data > * {
+.table .data>* {
   margin-bottom: 5%;
 }
 
@@ -408,11 +408,11 @@ hr {
 }
 
 .order-table tr td:first-child p {
-    background: rgb(255, 197, 197);
-    color: rgb(233, 120, 120);
-    width: 50%;
-    text-align: center;
-    border-radius: 2px;
+  background: rgb(255, 197, 197);
+  color: rgb(233, 120, 120);
+  width: 50%;
+  text-align: center;
+  border-radius: 2px;
 }
 
 .order-table tr td:last-child {
@@ -602,8 +602,8 @@ hr {
   justify-content: space-evenly;
 }
 
-.nifty > *,
-.sensex > * {
+.nifty>*,
+.sensex>* {
   margin-right: 8px;
 }
 
@@ -693,7 +693,7 @@ hr {
   align-items: center;
 }
 
-.item-info > * {
+.item-info>* {
   margin-right: 8px;
 }
 
@@ -724,6 +724,11 @@ hr {
   display: none;
 }
 
+.actions > span {
+  display: flex;
+  align-items: center;
+}
+
 .actions span button {
   width: 40px;
   height: 30px;
@@ -749,6 +754,22 @@ hr {
   border: 0.7px solid #ff5722;
 }
 
+.mre {
+  background-color: #091830;
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.8rem;
+  border: 0.7px solid #4184f3;
+}
+
+.anlys {
+  background-color: #3a0566;
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.8rem;
+  border: 0.7px solid #4184f3;
+}
+
 .action {
   background-color: #fff;
   border: 0.7px solid #9b9b9b;
@@ -756,7 +777,7 @@ hr {
 
 .icon {
   transform: scale(0.7);
-  color: rgb(65, 65, 65);
+  color: rgb(255, 255, 255);
 }
 
 .watchlist-number {
@@ -812,7 +833,7 @@ hr {
   background-color: #f3f3f3;
 }
 
-.list li:hover > .actions {
+.list li:hover>.actions {
   display: flex;
   cursor: move;
 }
@@ -841,6 +862,3 @@ hr {
 .action:hover {
   background-color: rgb(212, 212, 212);
 }
-
-
-
